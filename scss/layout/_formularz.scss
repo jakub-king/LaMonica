@@ -1,0 +1,67 @@
+.formularz {
+    height: 350px;
+    background:
+		linear-gradient(to bottom, rgba(black, 0.2) 0%, rgba(black, 0.2) 100% ),
+		url(../images/formularz.jpeg);
+	background-size: cover;
+	background-position: center;
+    position: relative;
+
+    .container-title{
+        display: flex;
+        justify-content: center;
+        .title{
+            margin: 20px 0;
+            width:300px;
+            background: rgba(red, 0.8);
+            border-radius: 40%;
+            text-align: center;
+            font: 30px $fontFamily;
+            font-style: italic;
+            font-weight: bold;
+            color: #fff;
+        }
+    }
+    .dane{
+        margin-top: 2%;
+        display: flex;
+        justify-content: space-between;
+
+        label{
+            font: 24px $fontFamily;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea, {
+            padding:0 5px;
+            vertical-align:top;
+            border:1px solid #54A5DA;
+            height:30px;
+            background:#fff;
+            font: 14px $fontFamily;
+            color:#ef4040;
+            display:block;
+        }
+        textarea {
+           height:100px;
+           resize:vertical;
+       }
+    }
+
+    .Wyslij{
+        margin-top: 4%;
+        display: flex;
+        justify-content: center;
+
+        .checkbox-label{
+            margin-top: 15px;
+            margin-right: 40px;
+            font-weight: bold;
+            font:$fontFamily;
+        }
+    }
+
+}

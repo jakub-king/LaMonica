@@ -1,0 +1,30 @@
+.main-header {
+	height: 75px;
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index: 1000;
+	background: white;
+	transition: 0.5s all;
+
+	.container-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 100%;
+		position: relative;
+	}
+
+	.main-logo {
+		a {
+			display: block;
+		}
+		img {
+			max-width: 250px;
+			height: auto;
+			display: inline-block;
+			transition: 0.5s all;
+		}
+	}
+}

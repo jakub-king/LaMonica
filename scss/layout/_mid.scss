@@ -1,0 +1,55 @@
+	.mid {
+		height: 500px;
+		background: white;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.containerS{
+	  max-width: 1140px;
+	  position: relative;
+	  margin: auto;
+	}
+
+    .menu1 {
+        text-align: center;
+		margin-top: 25px;
+    }
+
+	.is{
+		cursor:context-menu;
+		font: 24px $fontFamily;
+		margin: 0 10px;
+		color: #ef4040;
+		opacity: 0,5;
+		border-radius: 25%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+	}
+
+	.active ,.is:hover{
+		background-color: rgba(255, 0, 0, 0.2);
+	}
+
+	.slides {
+	    display: none;
+
+	    .fade {
+	      animation-name: fade;
+	      animation-duration: 1.5s;
+	    }
+
+	    @keyframes fade {
+	      from {opacity: 0.4}
+	      to {opacity: 1}
+	    }
+
+	    img {
+			border: 1px solid gray ;
+	        max-width: 	325px;
+	        max-height: auto;
+	        border-radius: 10%;
+	    }
+	}

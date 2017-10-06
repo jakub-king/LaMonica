@@ -1,0 +1,26 @@
+.main-nav, .footer {
+	li {
+		display: inline-block;
+		font: 16px $fontFamily;
+		color: $colorGray;
+		font-weight: bold;
+	}
+	li.active a {
+		color: #fff;
+		border-radius: 5px;
+		background: $colorMain;
+	}
+	a {
+		display: inline-block;
+		padding: 10px 15px;
+		color: #ef4040;
+		text-decoration: none;
+		transition: 0.5s color;
+
+		&:hover {
+			color: $colorMain;
+			background-color: rgba(255, 0, 0, 0.2);
+			border-radius: 50%;
+		}
+	}
+}

@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+}
+.container1 {
+	max-width:1140px;
+	margin:0 auto;
+	padding-left:10px;
+	padding-right: 10px;
+}
+
+body {
+	font-family: $fontFamily;
+}
+
+.kotwica {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}

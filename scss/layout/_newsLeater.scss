@@ -1,0 +1,34 @@
+.newsLeater {
+    height: 600px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+    .elem1{
+        float: left;
+        width: 50%;
+        height: 350px;
+    }
+
+
+    .elem2{
+        padding-top: 10%;
+        float: right;
+        width: 50%;
+        height: 50vh;
+        h2{
+            text-align: center;
+        }
+        p {
+            font: 16px $fontFamily;
+            color: #ef4040;
+            text-align: center;
+        }
+        .btn{
+            transform: translate(15vw,0);
+        }
+    }
